@@ -1,0 +1,59 @@
+body,
+p,
+h2 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+* {
+    transition: all .1s easy-in;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    max-width: 240px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+span {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.blue {
+    color: #19c8fa;
+}
